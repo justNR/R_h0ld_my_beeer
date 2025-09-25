@@ -106,8 +106,8 @@ print("Меня зовут " + name + ", мне " + str(age) + " лет.")
 print("Меня зовут " + name + ", мне " + age + " лет.") # TypeError: can only concatenate str (not "int") to str
 
 #2
-name = "Маша"
-age = 36
+name = "Рома"
+age = 29
 print("Привет, меня зовут {name}, мне {age} лет.".format(name=name, age=age)) 
 print("Привет, меня зовут {name}, мне {age} лет.".format(age=age, name=name)) 
 
